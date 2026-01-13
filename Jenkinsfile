@@ -6,7 +6,7 @@ pipeline{
     stage ( "git clone") {
 
       steps {
-        git url : https://github.com/Rehanshaikh9824/rehanshaikh.github.io.git, branch : "main"
+        git url : 'https://github.com/Rehanshaikh9824/rehanshaikh.github.io.git', branch : 'main'
       }
     }
 
