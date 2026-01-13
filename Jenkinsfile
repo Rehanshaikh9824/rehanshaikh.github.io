@@ -12,7 +12,7 @@ pipeline{
 
     stage ("docker image") {
       
-         echo " docker image created"
+         sh "docker --version"
     }
   }
 }
