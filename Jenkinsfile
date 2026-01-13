@@ -11,9 +11,8 @@ pipeline{
     }
 
     stage ("docker image") {
-      step {
+      
          echo " docker image created"
-      }
     }
   }
 }
