@@ -11,8 +11,10 @@ pipeline{
     }
 
     stage ("docker image") {
+      steps{
       
          sh "docker --version"
+      }
     }
   }
 }
