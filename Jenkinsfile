@@ -14,7 +14,7 @@ pipeline{
       steps{
       
          sh "docker --version"
-         sh "jenkins --version"
+        
       }
     }
   }
